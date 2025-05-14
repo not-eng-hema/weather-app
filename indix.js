@@ -20,7 +20,7 @@ weatherform.addEventListener("submit", async event => {
             }
         }
         else {
-            displayerror("دخل مدينه عدله يا خول");
+            displayerror("اكتب اسم ياعم بالانكليزي");
         }
     });
 async function gerweatherdata(city) {
