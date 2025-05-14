@@ -20,7 +20,7 @@ weatherform.addEventListener("submit", async event => {
             }
         }
         else {
-            displayerror("اكتب اسم ياعم بالانكليزي");
+            displayerror("اكتب اسم مدينه ياعم");
         }
     });
 async function gerweatherdata(city) {
