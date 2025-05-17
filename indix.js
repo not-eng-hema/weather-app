@@ -27,7 +27,7 @@ async function gerweatherdata(city) {
     const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
     const response = await fetch(apiurl);
     if(!response.ok){
-        displayerror("دخل مدينه عدله يا خول");
+        displayerror("دخل مدينه عدله ياسطا بالانجليزي");
 
     }
     return await response.json();
